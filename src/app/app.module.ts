@@ -7,6 +7,7 @@ import { ServicesComponent } from './services/services.component';
 import { TechnologyComponent } from './technology/technology.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContactComponent } from './contact/contact.component';
     ServicesComponent,
     TechnologyComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,

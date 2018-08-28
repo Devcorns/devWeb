@@ -46,6 +46,7 @@ html {
 .header__logo img {
     max-width: 150px;
     color: #fff;
+    margin-top:6px;
 }
 
 @media (min-width: 1200px) {

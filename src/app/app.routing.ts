@@ -5,6 +5,7 @@ import { ServicesComponent } from 'src/app/services/services.component';
 import { TechnologyComponent } from 'src/app/technology/technology.component';
 import { PortfolioComponent } from 'src/app/portfolio/portfolio.component';
 import { ContactComponent } from 'src/app/contact/contact.component';
+import { Error404Component } from './error404/error404.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,8 @@ const routes: Routes = [
     {path:"technology",component:TechnologyComponent},
     {path:"portfolio",component:PortfolioComponent},
     {path:"contact",component:ContactComponent},
+    {path:"**",component:Error404Component}
+    
     
     
     
